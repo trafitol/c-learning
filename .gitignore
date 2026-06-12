@@ -1,0 +1,27 @@
+# Compiled executables (no extension on Linux)
+a.out
+*.o
+*.exe
+
+# Specific binaries by name
+calculator
+calculator1
+calculator_functions
+functions
+division
+fizzbuzz
+grade
+grade2
+sum
+test1
+variables
+hello
+even_check
+factorial
+
+# Backup files from nano
+*.save
+*~
+
+# Editor temp files
+.swp
