@@ -1,11 +1,9 @@
 #include <stdio.h>
-
-int nmbrs [10] = {1,2,3,4,5,6,7,8,9,10};
-int total = 0;
-
-
-int main(void)
 {
+int main(void)
+int nmbrs[10]={1,2,3,4,5,6,7,8,9,10};
+int total =0;
+
 for(int i=0; i<10; i++){
     total = total + nmbrs[i];
 }
