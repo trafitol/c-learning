@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+int main (void)
+{
+int grade;
+
+printf("please input letter grade:\n");
+scanf("%d",&grade);
+{
+if (grade < 0 || grade >100){
+printf("Invalid answer\n");
+}
+else if(grade < 100 || grade > 90){
+printf("A");
+}
+else if(grade < 90 || grade > 80){
+printf("B"); 
+}
+else if(grade < 80 || grade > 70){
+printf("C"); 
+}
+else if(grade < 70 || grade > 60){
+printf("D"); 
+}
+else{
+printf("F"); 
+}
+}
+return 0;
+}
