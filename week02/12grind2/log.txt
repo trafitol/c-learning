@@ -1,0 +1,3 @@
+[1784064729]  INFO  Server started
+[1784064741]  ERROR  Connection refused
+[1784064752]  WARN  Cache miss
